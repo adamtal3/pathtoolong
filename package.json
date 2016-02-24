@@ -1,0 +1,32 @@
+{
+  "name": "pathtoolong",
+  "version": "0.0.1",
+  "description": "A file delete for handling windows System.IO.PathTooLongException which simply deletes the files which have a path greater than 260 characters.",
+  "main": "index.js",
+  "author": "Adam Tal",
+  "license": "MIT",
+  "bin": {
+    "pathtoolong": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamtal3/pathtoolong.git"
+  },
+  "keywords": [
+    "PathTooLongException",
+    "node_modules",
+    "Windows",
+    "VisualStudio",
+    "System.IO.PathTooLongException"
+  ],
+  "bugs": {
+    "url": "https://github.com/adamtal3/pathtoolong/issues"
+  },
+  "homepage": "https://github.com/adamtal3/pathtoolong#readme",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "glob": "^7.0.0",
+    "lodash": "^4.5.1",
+    "rimraf": "^2.5.2"
+  }
+}

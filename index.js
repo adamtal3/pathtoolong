@@ -9,7 +9,7 @@ console.log(chalk.white('running pathtoolong'));
 
 return glob("**/*", function (er, files) {
   var badFiles = _.filter(files, function (file) {
-    return file.length > 260;
+    return file.length > 248;
   });
 
   if (badFiles.length) {
@@ -20,7 +20,7 @@ return glob("**/*", function (er, files) {
     });
   }
   else {
-    console.log(chalk.bgGreen('All your files paths are under 260 characters.'));
+    console.log(chalk.bgGreen('All your files paths are under 248 characters.'));
   }
 
   Promise.all(promises).then(function () {

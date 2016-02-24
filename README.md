@@ -1,6 +1,6 @@
 # Windows System.IO.PathTooLongException file deleter
 
-A file delete for handling windows System.IO.PathTooLongException which simply deletes the files which have a path greater than 260 characters.
+A file delete for handling windows System.IO.PathTooLongException which simply deletes the files which have a path greater than 248 characters.
 
 ## Running pathtoolong WILL delete files from your filesystem
 

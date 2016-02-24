@@ -11,7 +11,6 @@ console.log(chalk.white('running pathtoolong'));
 return glob("**/*", { realpath: true, disableGlob: true }, function (er, files) {
   var badFiles = _.filter(files, function (file) {
     var maxLength = fs.statSync(file).isDirectory() ? 248 : 260;
-    console.log(file + ': ' + maxLength);
     return file.length > maxLength;
   });
 

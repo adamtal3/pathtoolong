@@ -1,7 +1,7 @@
 {
   "name": "pathtoolong",
   "version": "0.0.2",
-  "description": "A file delete for handling windows System.IO.PathTooLongException which simply deletes the files which have a path greater than 248 characters.",
+  "description": "A file delete for handling windows System.IO.PathTooLongException which simply deletes the files which have a path greater than 260 characters.",
   "main": "index.js",
   "author": "Adam Tal",
   "license": "MIT",
@@ -27,6 +27,6 @@
     "chalk": "^1.1.1",
     "glob": "^7.0.0",
     "lodash": "^4.5.1",
-    "rimraf": "^2.5.2"
+    "rimraf-promise": "^2.0.0"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "pathtoolong",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A file delete for handling windows System.IO.PathTooLongException which simply deletes the files which have a path greater than 260 characters.",
   "main": "index.js",
   "author": "Adam Tal",
